@@ -21,7 +21,7 @@ export default async function handler(req, res) {
     await client.messages.create({
       from: "whatsapp:+14155238886", // Twilio Sandbox Number
       to: `whatsapp:${to}`,
-      body: "Here is your requested PDF 📄",
+      body: "📄 חשבונית מס",
       mediaUrl: [pdfUrl],
     });
 
