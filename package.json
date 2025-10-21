@@ -1,1 +1,8 @@
-
+{
+  "name": "whatsapp-pdf-sender",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "twilio": "^4.22.0"
+  }
+}
